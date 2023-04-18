@@ -8,6 +8,7 @@ public class RoyalRumblePool
     {
         File rumbleFile = new File("RumbleReader.txt");
         Scanner rumbleReader = new Scanner(rumbleFile);
+        RumblePool pool = Helpers.initializeRumblePool(rumbleReader);
     }
 
 }

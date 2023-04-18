@@ -1,4 +1,4 @@
-30
-Cruz
-Mom
-Tim
+30$2
+Cruz,10
+Mom,10
+Tim,5
