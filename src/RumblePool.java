@@ -6,7 +6,7 @@ public class RumblePool
 {
     private static Dictionary<Integer,String> entrants;
     private static int poolTotal;
-    private Dictionary<String, ArrayList<Integer>> participants;
+    private static Dictionary<String, ArrayList<Integer>> participants;
 
     public RumblePool()
     {
@@ -28,5 +28,9 @@ public class RumblePool
         participants = participantBase;
 
     }
+
+    public static Dictionary<Integer,String> getEntrants() {return entrants;}
+    public static int getPoolTotal(){return poolTotal;}
+    public static Dictionary<String,ArrayList<Integer>> getParticipants(){return participants;}
 
 }
